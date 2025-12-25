@@ -2,6 +2,11 @@
 
 A lightweight, customizable toast notification library for Svelte 5.
 
+[![npm version](https://img.shields.io/npm/v/svelte5-toaster)](https://www.npmjs.com/package/svelte5-toaster)
+[![license](https://img.shields.io/npm/l/svelte5-toaster)](https://github.com/Aron-Lomner/svelte5-toaster/blob/main/LICENSE)
+
+[Demo](https://www.aronlomner.com/svelte5-toaster) · [npm](https://www.npmjs.com/package/svelte5-toaster) · [GitHub](https://github.com/Aron-Lomner/svelte5-toaster)
+
 ## Installation
 
 ```bash

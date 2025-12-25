@@ -335,6 +335,10 @@ toast.dismissAll()`}
 	</section>
 
 	<footer>
+		<p>
+			<a href="https://www.npmjs.com/package/svelte5-toaster">npm</a> ·
+			<a href="https://github.com/Aron-Lomner/svelte5-toaster">GitHub</a>
+		</p>
 		<p>MIT License · Developed by <a href="https://www.aronlomner.com/">Aron Lomner</a></p>
 	</footer>
 </main>
@@ -556,7 +560,20 @@ toast.dismissAll()`}
 		font-size: 0.9rem;
 	}
 
+	footer a {
+		color: #666;
+		text-decoration: none;
+	}
+
+	footer a:hover {
+		text-decoration: underline;
+	}
+
 	.dark footer {
 		border-color: #333;
+	}
+
+	.dark footer a {
+		color: #aaa;
 	}
 </style>
