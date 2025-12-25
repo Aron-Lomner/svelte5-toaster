@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Champagne glass - larger and bolder -->
+  <defs>
+    <linearGradient id="champagne" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fcd34d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glass bowl - filled -->
+  <path d="M28 8 L20 60 Q20 80 64 80 Q108 80 108 60 L100 8 Z" fill="url(#champagne)"/>
+
+  <!-- Glass outline - thicker -->
+  <path d="M28 8 L20 60 Q20 80 64 80 Q108 80 108 60 L100 8" fill="none" stroke="#b45309" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Stem - thicker -->
+  <rect x="54" y="80" width="20" height="28" fill="#b45309" rx="2"/>
+
+  <!-- Base - larger -->
+  <ellipse cx="64" cy="116" rx="32" ry="8" fill="#b45309"/>
+
+  <!-- Bubbles - larger and fewer -->
+  <circle cx="48" cy="40" r="6" fill="white" opacity="0.7"/>
+  <circle cx="72" cy="28" r="5" fill="white" opacity="0.6"/>
+  <circle cx="80" cy="52" r="7" fill="white" opacity="0.7"/>
+</svg>
