@@ -6,9 +6,9 @@
 	"author": "Aron Lomner (https://www.aronlomner.com/)",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Aron-Lomner/svelte5-toaster.git"
+		"url": "git+https://github.com/Aron-Lomner/svelte5-toaster.git"
 	},
-	"homepage": "https://aron-lomner.github.io/svelte5-toaster",
+	"homepage": "https://www.aronlomner.com/svelte5-toaster",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
