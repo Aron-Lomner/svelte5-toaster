@@ -4,6 +4,11 @@
 	"description": "A lightweight, customizable toast notification library for Svelte 5",
 	"license": "MIT",
 	"author": "Aron Lomner (https://www.aronlomner.com/)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aron-Lomner/svelte5-toaster.git"
+	},
+	"homepage": "https://aron-lomner.github.io/svelte5-toaster",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -37,6 +42,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.49.1",
 		"@sveltejs/package": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
