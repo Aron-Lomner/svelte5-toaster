@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.aronlomner.com/svelte5-toaster/sitemap.xml
